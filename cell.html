@@ -1,0 +1,131 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+        <title>About me</title>
+    </head>
+
+    <style>
+        
+        body {
+            background-color: red;
+            font-family: 'Baloo Bhaijaan', cursive;
+        }
+        .navbar {
+            width: 100%;
+            height: 40px;
+            background-color: blue;
+            top: 0;
+            position: absolute;
+            left: 0;
+            font-size: 30px;
+            color: red;
+            text-shadow: 1.5px 1.5px black;
+        }
+        .footer {
+            width: 100%;
+            height: 40px;
+            background-color: blue;
+            bottom: 0;
+            position: fixed;
+            left: 0;
+            font-size: 30px; 
+            color: red;
+            text-shadow: 1.5px 1.5px black;
+        }
+        .intro {
+            padding-top: 20px;
+            position: absolute;
+            text-shadow: 1.5px 1.5px black;
+            color: blue;
+        }
+        #image1 {
+            text-align: right;
+            padding-top: 41px;
+            padding-right: 0.8px;
+        }
+        .review {
+            color: blue;
+            text-shadow: 1.5px 1.5px black;
+            padding-bottom: 20px;
+        }
+        #table{
+            border-color: black;
+            color: blue;
+        }
+        .images {
+            display: inline-block;
+            margin-left: 28.3px;
+            padding-bottom: 59px
+        }
+        .navbar a {
+            display: inline-block;
+            width: 15%;
+        }
+        .span:before {
+            content: '';
+            display: inline-block;
+            width: 35px;
+        }
+    </style>
+
+    <body>
+        <div class='navbar'> 
+            <span><a>About us</a></span>
+            <span><a>Contact us</a></span>
+        </div>
+
+        <div class='intro'>
+                <h1>Welcome to my Web page</h1>
+                <p>My name is Morgan, i am 21 years old and studying web design</p>
+                <p>The image on the right shows my particular bike along with it's stats</p>
+        </div>
+
+        <div id='image1'>
+            <img src='images/drzstats.jpg' width=780px height=400px/>
+        </div>
+
+        <div class='review'>
+            <h1>Motorcycle Reviews</h1>
+            <table id='table' style='width:100%' border=1>
+                <tr>
+                    <th>Model</th>
+                    <th>Year</th>
+                    <th>Engine size</th>
+                    <th>Review</th>
+                </tr>
+                <tr>
+                    <th>Suzuki DRZ</th>
+                    <th>2008</th>
+                    <th>434cc</th>
+                    <th>Very reliable, fast, and lightweight, perfect commuter.</th>
+                </tr>
+                <tr>
+                    <th>Triumph Daytona</th>
+                    <th>2011</th>
+                    <th>675cc</th>
+                    <th>Extremely fast, expensive but reliable, designed for racing or Sunday rides</th>
+                </tr>
+                <tr>
+                    <th>Honda CBR</th>
+                    <th>1995</th>
+                    <th>400cc</th>
+                    <th>Quick and speedy, perfect intermediate motorcycle</th>
+                </tr>
+            </table>
+        </div>
+        <div class='images'>
+            <span><img src='images/drz.jpg' width=400px height=300px/></span>
+            <span></span>
+            <span class='span'><img src='images/triumph.jpg' width=400px height=300px/></span>
+            <span></span>
+            <span class='span'><img src='images/cbr.png' width=400px height=300px/></span>
+        </div>
+       
+
+        <div class='footer'>
+            <span>Built by Morgan Evans</span>
+            <span><copyright 2017</span>
+        </div>
+    </body>
+</html>
